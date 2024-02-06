@@ -12,6 +12,7 @@
             margin: 0;
             padding: 0;
         }
+
         .container {
             max-width: 800px;
             margin: 0 auto;
@@ -20,14 +21,18 @@
             flex-direction: column;
             align-items: center;
         }
-        .image, .text {
+
+        .image,
+        .text {
             width: 100%;
             margin-bottom: 20px;
         }
+
         .image img {
             max-width: 100%;
             height: auto;
         }
+
         .text p {
             margin: 0;
         }
@@ -38,15 +43,20 @@
                 flex-direction: row;
                 align-items: flex-start;
             }
+
             .image {
                 flex: 2;
                 padding-right: 20px;
                 margin-bottom: 0;
-                max-width: 60%; /* Larger maximum width for image container */
+                max-width: 60%;
+                /* Larger maximum width for image container */
             }
+
             .image img {
-                width: 100%; /* Make the image fill the container */
+                width: 100%;
+                /* Make the image fill the container */
             }
+
             .text {
                 flex: 3;
                 padding-left: 20px;
@@ -54,29 +64,31 @@
                 margin-bottom: 0;
             }
         }
-          .email-button {
-    display: inline-block;
-    padding: 10px 20px;
-    background-color: #3498db;
-    color: #fff;
-    font-size: 16px;
-    font-weight: bold;
-    text-transform: uppercase;
-    border-radius: 25px;
-    text-decoration: none;
-    transition: background-color 0.3s ease;
-    border: none;
-    cursor: pointer;
-  }
-  .email-button:hover {
-    background-color: #2980b9;
-  }
+
+        .email-button {
+            display: inline-block;
+            padding: 10px 20px;
+            background-color: #3498db;
+            color: #fff;
+            font-size: 16px;
+            font-weight: bold;
+            text-transform: uppercase;
+            border-radius: 25px;
+            text-decoration: none;
+            transition: background-color 0.3s ease;
+            border: none;
+            cursor: pointer;
+        }
+
+        .email-button:hover {
+            background-color: #2980b9;
+        }
     </style>
     <script type="text/javascript">
         // Function to generate the email address
         function generateEmail() {
-            var emailAddress = "dakotadwagner" + "@" + "gmail.com";
-            return emailAddress;
+            var emailAddress = "ZGFrb3RhZHdhZ25lckBnbWFpbC5jb20=";
+            return atob(emailAddress);
         }
     </script>
 </head>
@@ -92,18 +104,21 @@
         <div class="text">
             <h3>Specialization as an athlete</h3>
             <p>College: Mile / 1500m<br>
-            Post-Collegiate: ultramarathons, trail racing</p>
-            
+                Post-Collegiate: ultramarathons, trail racing</p>
+
             <h3>Specialization as a coach</h3>
-            <p>I really enjoy coaching athletes who are ready to learn. I passionate about running so I love to educate and teach as
-            best I can. I have experience from every event from the mile to the 100 mile distance. 
-            I am capable of coaching individuals of varying abilities - whether its your first 5k or your 100th marathon, 
-            I want you to succeed! I love helping people gain confidence in their abilities.</p>
-            
+            <p>I really enjoy coaching athletes who are ready to learn. I passionate about running so I love to educate
+                and teach as
+                best I can. I have experience from every event from the mile to the 100 mile distance.
+                I am capable of coaching individuals of varying abilities - whether its your first 5k or your 100th
+                marathon,
+                I want you to succeed! I love helping people gain confidence in their abilities.</p>
+
             <h3>College</h3>
-            <p>Collegiate Athlete at University of Jamestown (North Dakota). Competed in Cross Country, Indoor and Outdoor track and field. Graduated
-            with a degree in Computer Science.</p>
-        
+            <p>Collegiate Athlete at University of Jamestown (North Dakota). Competed in Cross Country, Indoor and
+                Outdoor track and field. Graduated
+                with a degree in Computer Science.</p>
+
         </div>
     </div>
     <div class="container">
