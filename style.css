@@ -1,0 +1,43 @@
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+h1 {
+  text-align: center;
+  text-decoration: underline;
+}
+
+h2, h3 {
+  margin-top: 30px;
+  text-decoration: underline;
+}
+
+h3 {
+  margin-top: 20px;
+}
+
+b {
+  font-weight: bold;
+}
+
+p {
+  margin-bottom: 10px;
+}
+
+.entry {
+  margin-bottom: 30px;
+}
+
+.entry-body {
+  margin-top: 10px;
+}
+
