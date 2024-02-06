@@ -1,43 +1,78 @@
-body {
-  font-family: Arial, sans-serif;
-  line-height: 1.6;
+/* Reset default margin and padding */
+body, h1, h2, h3, p, ul, li {
   margin: 0;
   padding: 0;
+}
+
+/* Set font family and size */
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 18px;
+  line-height: 1.6;
+  color: #333; /* Set font color */
+}
+
+/* Add some spacing between elements */
+h1, h2, h3, p, ul, li {
+  margin-bottom: 10px;
+}
+
+/* Style headings */
+h1 {
+  text-align: center;
+  font-size: 36px;
+  margin-top: 20px;
+  text-decoration: underline; /* Add underline */
+}
+
+h2, h3 {
+  font-size: 28px;
+  text-decoration: underline; /* Add underline */
+}
+
+/* Style paragraphs and lists */
+p, ul {
+  padding-left: 15px;
+}
+
+/* Style list items */
+li {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+/* Ensure readability on smaller screens */
+@media only screen and (max-width: 600px) {
+  body {
+    font-size: 16px; /* slightly smaller font size for smaller screens */
+  }
+  
+  h1 {
+    font-size: 28px;
+  }
+  
+  h2, h3 {
+    font-size: 22px;
+  }
+}
+
+/* Improve background */
+body {
+  background-color: #f5f5f5; /* Set background color */
 }
 
 .container {
   max-width: 800px;
   margin: 0 auto;
   padding: 20px;
+  background-color: #fff; /* Set content background color */
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Add shadow effect */
 }
 
-h1 {
-  text-align: center;
-  text-decoration: underline;
+/* Additional styles for iPhones */
+@media only screen and (max-width: 480px) {
+  .container {
+    padding: 10px; /* Adjust padding for smaller screens */
+  }
 }
-
-h2, h3 {
-  margin-top: 30px;
-  text-decoration: underline;
-}
-
-h3 {
-  margin-top: 20px;
-}
-
-b {
-  font-weight: bold;
-}
-
-p {
-  margin-bottom: 10px;
-}
-
-.entry {
-  margin-bottom: 30px;
-}
-
-.entry-body {
-  margin-top: 10px;
-}
-
