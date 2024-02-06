@@ -4,19 +4,78 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="format-detection" content="telephone=no"> <!-- Prevent phone number link detection -->
-    <title>Home</title>
-    <link rel="stylesheet" href="style.css">
+    <title>Training and other things...</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f5f5f5;
+        }
+
+        .container {
+            max-width: 80em;
+            /* Adjusted to make it mobile-friendly */
+            margin: 0 auto;
+            padding: 2em;
+            text-align: center;
+        }
+
+        .image {
+            margin-bottom: 2em;
+            max-width: 100%;
+            /* Adjusted to make it responsive */
+            height: auto;
+            /* Adjusted to maintain aspect ratio */
+            width: 80%;
+            /* Adjusted for mobile screens */
+            box-shadow: 0px 0.5em 1em rgba(0, 0, 0, 0.1);
+            /* Adjusted shadow effect */
+        }
+
+        .link-tree {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+
+        .link {
+            margin: 0.5em;
+            text-decoration: none;
+            color: #333;
+            border: 0.2em solid #333;
+            border-radius: 0.5em;
+            padding: 0.5em 1em;
+            transition: all 0.3s ease;
+        }
+
+        .link:hover {
+            background-color: #333;
+            color: #fff;
+        }
+
+        @media (min-width: 768px) {
+            .container {
+                padding: 3em;
+            }
+
+            .image {
+                width: 50%;
+                /* Adjusted for larger screens */
+            }
+        }
+    </style>
 </head>
 
-<h3>Training and other things</h3>
-<ul>
-    <li>
-        <a href="/coaching/coaching.html">Coaching</a>
-    </li>
-    <li>
-        <a href="blackcanyon2024.html">Black Canyon 2024</a>
-    </li>
-</ul>
+<body>
+    <div class="container">
+        <h3>Training and other things...</h3>
+        <img class="image" src="assets/lean_horse.jpeg" alt="Lean Horse Image">
+        <div class="link-tree">
+            <a class="link" href="coaching/coaching.html">Coaching</a>
+            <a class="link" href="blackcanyon2024.html">Black Canyon 2024</a>
+        </div>
+    </div>
+</body>
 
 </html>

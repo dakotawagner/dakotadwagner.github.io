@@ -99,3 +99,31 @@ body {
     /* Adjust padding for smaller screens */
   }
 }
+
+/* Media queries for responsiveness */
+@media only screen and (min-width: 600px) {
+  .container {
+    flex-direction: row;
+    align-items: flex-start;
+  }
+
+  .image {
+    flex: 2;
+    padding-right: 20px;
+    margin-bottom: 0;
+    max-width: 60%;
+    /* Larger maximum width for image container */
+  }
+
+  .image img {
+    width: 100%;
+    /* Make the image fill the container */
+  }
+
+  .text {
+    flex: 3;
+    padding-left: 20px;
+    border-left: 1px solid #ccc;
+    margin-bottom: 0;
+  }
+}
